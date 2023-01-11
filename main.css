@@ -55,6 +55,15 @@ body {
     gap: 1.5em;
 }
 
+#bio {
+    word-spacing: .5ch;
+    letter-spacing: .1ch;
+}
+
+#email {
+    letter-spacing: .1ch;
+}
+
 #bio a {
     text-decoration: none;
     color: var(--mainLinkColor-light);
@@ -178,6 +187,7 @@ h2 {
     font-size: 0.9em;
     transition: 0.3s;
     text-decoration: none;
+    letter-spacing: .1ch;
 }
 
 /* Section Teck stack */
@@ -203,6 +213,9 @@ span {
 
 #socials--list a:hover {
     text-decoration: underline;
+    font-weight: 100;
+    color: var(--mainLinkColor);
+    font-size: 0.9em;
 }
 
 @media (max-width: 600px) {
@@ -244,6 +257,37 @@ span {
         list-style-type: none;
     }
 
+}
+
+/* Section Work History */
+.line-break {
+    background-color: var(--mainBorderColor);
+    height: 1px;
+}
+
+.card--work-history {
+    border-left: 1px solid var(--mainBorderColor);
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-left: 2em;
+}
+
+p {
+    color: var(--secondaryTextColor);
+    font-size: 1em;
+}
+
+.card--work-history ul li {
+    line-height: 1.9;
+}
+
+.card--work-history,
+strong {
+    margin-bottom: 2rem;
+}
+
+.card--work-history p {
+    margin-bottom: 1rem;
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
