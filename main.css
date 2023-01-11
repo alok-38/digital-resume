@@ -257,6 +257,23 @@ span {
         list-style-type: none;
     }
 
+    #wrapper--techstack__items {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+
+    .section--page .card--project {
+        transform: translateY(-50%);
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    strong {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
 }
 
 /* Section Work History */
@@ -281,12 +298,11 @@ p {
     line-height: 1.9;
 }
 
-.card--work-history,
-strong {
-    margin-bottom: 2rem;
+.card--work-history p {
+    margin-bottom: 1rem;
 }
 
-.card--work-history p {
+.section--page h2 {
     margin-bottom: 1rem;
 }
 
