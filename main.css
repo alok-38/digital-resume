@@ -55,6 +55,23 @@ body {
     gap: 1.5em;
 }
 
+#bio a {
+    text-decoration: none;
+    color: var(--mainLinkColor-light);
+}
+
+#qualifications--list {
+    list-style: none;
+}
+
+li {
+    line-height: 1.9em;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 600px) {
     #wrapper--hero {
         flex-direction: column;
@@ -160,6 +177,32 @@ body {
     color: var(--secondaryTextColor);
     font-size: 0.9em;
     transition: 0.3s;
+    text-decoration: none;
+}
+
+/* Section Teck stack */
+
+#wrapper--techstack__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.card--techstack {
+    border: 1px solid var(--mainBorderColor);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    align-items: center;
+}
+
+span {
+    color: var(--secondaryTextColor);
+    font-size: 1em;
+}
+
+#socials--list a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 600px) {
@@ -192,6 +235,9 @@ body {
 
     h2 {
         margin-bottom: 1rem;
+        margin-top: 0;
+        text-align: center;
+        transform: translateY(-50%);
     }
 
     #qualifications--list {
